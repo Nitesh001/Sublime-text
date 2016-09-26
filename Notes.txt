@@ -1,0 +1,131 @@
+1) Press Ctrl at place and type same text at multiple places.
+2) Select same word at multiple places by using ctrl+d. (kind of find and replace)
+3) ctrl+shift+L: select multiple lines together and each line will be turned into editable region(To turn each line into editable region).
+4) alt+shift+w: For wrapping the text. For multiple lines wrapping use, ctrl+shift+L and then alt+shift+w. Ctrl+shift+v gives smart pasting (with indentation)
+5) ctrl+shift+arrow : To move statemnt up or down.
+6) ctrl+shift+d: For duplicating an item (no need to select an item, just put cursor on that item)
+7) ctrl+shift+k: For remove/delete items
+8) ctrl+P: To open any file, press '@' when you want to open some method in that file. Same is possible in case of CSS file and HTML file.
+9)  For reaching to particular line, ctrl+p, search file press colon (:) and now line number
+10) For searching in same file, ctrl+P, press '@' and type method name or : type line number.Also use '#ANY_WORD' to see first occurance of that word in the file.
+11) You can see unsaved changes before saving content. Just right click and you will see option 'show unsaved changes'.
+12) ctrl+shift+P: For opening command pallete (search for upper case, lower case, set syntax etc.)
+13) ctrl+shift+P: For opening package manager window and start searching anything like, 'install package'.
+14) Snippets:
+a) Type 'fun' and hit tab, it will create function snippet.
+b) Type 'ife' and hit tab, it will create if else block.
+c) For html, save file as .html, now type html and hit tab.
+d) Type 'div' and hit tab.
+e) Use Emmit plugin for more snippets feature. (For Emmet package, search 'Emmet' in command palate)
+Use > for child elements, Use + for siblings. Use () for separate HTML blocks. Use tab for autocompletion of tag elements.
+like,
+ul>li.item-$*3 = 
+<ul>
+  <li class="item-1"></li>
+  <li class="item-2"></li>
+  <li class="item-3"></li>
+</ul>
+
+like, (div>span.new+ul>li*3)+(article>div.art) (no spaces)
+<div>
+ <span class="new"></span>
+ <ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</div>
+<article>
+  <div class="art"></div>
+</article>	
+
+f) More better feature that Emmet plugin provides is live structure creation around the text.
+
+Select multiple lines with ctrl+shift+L and use ctrl+shift+G to allow Emmet special structure syntax to be written.
+Now if you write Emmet special syntax like, ul.>li-item$$>span etc.
+You will see live structure creation around your text.
+
+ For indentation, Edit -> Line -> Reindent
+ 
+ For right indent, ctrl+],
+ For left indent, ctrl+[
+
+ For CSS we can use,
+
+ mb10 = margin-bottom:10px
+ pb5 = padding-bottom:5px
+ dn = display:none
+ db = display:block   
+ w87p = width: 87%;
+
+Custom snippets and placeholders can also be created (watch video tut less8, LearnWebcode)
+
+ sublime.log_commands(True);
+
+16)ctrl+Q for macro
+17) Tweaks:
+In preferences -> settings-user and type your settings
+View -> layout -> columns 3 for diferent kind of layouts.
+File -> New view into file for opening same file again 
+
+ Rubik's cube:
+
+ 1. Making the cross: F R U R' U' F' 
+(Dot [in any orientation], then L shape [with tips pointing down and to the right], and then the [horizontal] line)
+
+2. Aligning the cross: R U2 R' U' R U' R'
+(One correct piece facing you and one facing away, then one incorrect facing you and one to the right)
+
+one right side facing you, remaining three adjacent top corner and lower half other side.
+ R U U R' U' R U' R'
+
+
+3. Placing corners: L' U R U' L U R' U'
+(Any orientation if all corners false. Otherwise, correct corner on bottom right)
+
+4. Final Step: R U2 R' U' R U' R' L' U2 L U L' U L
+(Keep false corners on bottom right and, if possible, top right).
+
+42098394
+
+Modular JS
+HTML5
+Puzzles
+CSS3
+Bootstrap
+Angular
+Grunt
+Require
+Basics of Node
+Git
+wordpress themes installation
+SVG path
+CSS 3 matrix animation
+JSONP
+
+Finally did it.
+Thanks to myself & Prudvee, Sergs :) :)
+
+Must Know Bootstrap classes:
+Must know Foundation classes:
+
+Bootstrap difference in small and large device
+difference between container and container-fluid
+How will you disable/enable zoom feature on phone screen??
+What will happend if there is an event binded to mousedown and click on same element.
+What is the difference between two?
+Write a same program using for loop and JS map.
+deferred and promises
+Qs on Ajax, JSONP
+html5 shiv, polyfill
+Write good RegEx
+
+Qs on float, box sizing, display and position
+
+How to vertical align text?
+please check https://jsfiddle.net/68jo5L97/
+
+
+
+
+
